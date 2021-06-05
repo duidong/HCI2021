@@ -24,3 +24,9 @@ Leap Motion을 통해 3차원 공간에서 자신의 손을 이용하는 흥미�
 스크린샷 2021-05-28 오후 5.40.52![image](https://user-images.githubusercontent.com/65009468/119956299-ea9f8d00-bfdb-11eb-92cb-0e7c9d99c045.png)
 
 버튼 핸드 인터랙션 기능, 씬별 기능설명, 핀치 (립모션에서 어떤 기능 쓰는지)기능
+
+## Hand Interaction
+
+                      [pinch]			    [spread palm] 		     [finger touch]
+      
+립모션의 모션인식 기능 중에 pinch, spread palm, finger touch를 주로 사용합니다. pinch는 엄지 손가락과 집게 손가락을 오므리는 동작으로 그림을 그리는 기능을 위해 사용됩니다. pinch상태일 때는 손가락 끝에서 펜이 나오고, spread palm 상태일 때는 멈춥니다. finger touch는 한 손가락으로 터치하는 동작으로 버튼을 누를 때 사용됩니다.
