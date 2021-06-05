@@ -1,5 +1,6 @@
 # Draw your own mask! (Leapmotion, Unity) 
-![Demo Image]<img width="654" alt="0" src="https://user-images.githubusercontent.com/48082551/120883230-f06a2380-c616-11eb-8550-97f203e40a27.png">
+![Demo Image](https://user-images.githubusercontent.com/48082551/120883230-f06a2380-c616-11eb-8550-97f203e40a27.png)
+
 
 
 ## Members
