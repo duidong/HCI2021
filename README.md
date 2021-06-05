@@ -1,6 +1,5 @@
-# HCI2021
 # Draw your own mask! (Leapmotion, Unity) 
-<img width="1439" alt="스크린샷 2021-05-28 오후 5 12 46" src="https://user-images.githubusercontent.com/65009468/119952405-ef624200-bfd7-11eb-8074-272b8e4994e4.png">
+![Demo Image](/image/0.png)
 
 ## Members
 김예빈, 김예안, 류태동, 정슬기
@@ -18,15 +17,67 @@ Leap Motion을 통해 3차원 공간에서 자신의 손을 이용하는 흥미�
 직접 참여할 수 있는 캠페인을 만든다
 
 ## Main Contents (2명)
-립모션 인터렉션
-씬들의 인터렉션 
-기능 갤러리 기능, 저장 기능, 공유 기능 
-스크린샷 2021-05-28 오후 5.40.52![image](https://user-images.githubusercontent.com/65009468/119956299-ea9f8d00-bfdb-11eb-92cb-0e7c9d99c045.png)
+1. Hand Interaction   
+![Drawing Picture](/image/1.png)   
 
-버튼 핸드 인터랙션 기능, 씬별 기능설명, 핀치 (립모션에서 어떤 기능 쓰는지)기능
-
-## Hand Interaction
-
-                      [pinch]			    [spread palm] 		     [finger touch]
       
 립모션의 모션인식 기능 중에 pinch, spread palm, finger touch를 주로 사용합니다. pinch는 엄지 손가락과 집게 손가락을 오므리는 동작으로 그림을 그리는 기능을 위해 사용됩니다. pinch상태일 때는 손가락 끝에서 펜이 나오고, spread palm 상태일 때는 멈춥니다. finger touch는 한 손가락으로 터치하는 동작으로 버튼을 누를 때 사용됩니다.
+
+
+2.Scene Interaction 
+
+* Home Scene   
+![Home](/image/2.png)   
+간략한 프로그램의 설명이 적혀 있는 main scene입니다.
+ (start 버튼 -> drawing scene으로 이동) 
+
+
+* Drawing Scene   
+![Drawing](/image/3.png)   
+나만의 마스크를 디자인하는 drawing scene입니다.
+(home 버튼 -> home scene으로 이동
+ gallery 버튼 -> gallery scene으로 이동 
+share 버튼 -> 공유할지 묻는 팝업창
+save 버튼 -> 저장할지 묻는 팝업창 
+print -> 프린트 할지 묻는 팝업창 -> 퀴즈)  
+
+* Gallery Scene   
+![Gallery](/image/4.png)   
+디자인 한 마스크가 저장되어 갤러리처럼 볼 수 있는 gallery scene입니다.
+(home 버튼 -> home scene) 
+
+* Quiz Scene   
+![Quiz](/image/5.png)   
+디자인 한 마스크를 프린트하기 전에 퀴즈를 풀 게 하는 quiz scene입니다.      
+   
+3. Button Interaction   
+![Button Interaction](/image/6.png)   
+앞서 설명한 scene interaction과 관련해서 button과 scene의 관계를 그림으로 나타냈습니다.
+
+
+## Step by step instructions
+1.  실행 파일 다운로드 https://github.com/snow-creater/HCI
+3.  립모션 다운로드 및 연결 https://developer.leapmotion.com/sdk-leap-motion-controller
+4.  실행 파일 실행
+
+## Results
+
+
+https://user-images.githubusercontent.com/48082551/120882282-88fda500-c611-11eb-82ce-9d5a2a79f210.mp4
+
+
+순서: 홈-스타트-그리기-홈-갤러리-쉐어-세이브-프린트-퀴즈-홈
+소스코드!!
+
+## Conclusion 
+
+
+## References
+1.    김영애, 장지웅, 허수진, 박구만. (2015). 립모션을 이용한 Unity3D 기반의 인터랙티브 미디어 아트 콘텐츠 개발. 한국정보과학회 학술발표논문집, (), 1969-1971.
+2.    박선희, 이정배, 신현호. (2015). 립모션 장치를 활용한 에듀테인먼트 콘텐츠 제작. 한국콘텐츠학회 종합학술대회 논문집, (), 345-346.
+3.    유준영, 김덕연, 이진호, 조요한. (2018). VR, AR을 이용한 립모션 아티스트. 한국정보과학회 학술발표논문집, (), 2369-2370.
+4.    LeapMotion Unity Module Documentation https://leapmotion.github.io/UnityModules/
+5.    Ultraleap-developer
+https://developer-archive.leapmotion.com/documentation/v2/unity/unity/Unity_UIInput_Setup.html
+
+ 
