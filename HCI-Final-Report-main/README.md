@@ -29,7 +29,7 @@ Leap Motion을 통해 3차원 공간에서 자신의 손을 이용하는 흥미�
 2.Scene Interaction 
 
 * Home Scene   
-![2](./images/2.png)
+![2](./image/2.png)
 간략한 프로그램의 설명이 적혀 있는 main scene입니다.
  (start 버튼 -> drawing scene으로 이동) 
 
