@@ -1,6 +1,6 @@
 # Draw your own mask! (Leapmotion, Unity) 
-![Demo Image](/image/0.png)
-![1](https://user-images.githubusercontent.com/48082551/120883180-ad0fb500-c616-11eb-8d3e-cb5b56ead62a.png)
+![Demo Image]<img width="654" alt="0" src="https://user-images.githubusercontent.com/48082551/120883230-f06a2380-c616-11eb-8550-97f203e40a27.png">
+
 
 ## Members
 김예빈, 김예안, 류태동, 정슬기
